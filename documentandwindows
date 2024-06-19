@@ -1,0 +1,57 @@
+DOCUMENT OBJECT:
+
+* The document object represents a web page that is loaded in the browser.
+* By accessing the document object, we can access the element in the HTML page. 
+* With the help of document objects, we can add dynamic content to our web page. 
+
+Syntax:
+document.property_name;
+
+
+
+
+WINDOW OBJECT:
+
+
+* The window object is the topmost object of the DOM hierarchy. 
+* It represents a browser window or frame that displays the contents of the webpage. 
+* Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+
+
+Syntax:
+window.property_name;
+
+
+
+                             Difference between document and window 
+
+
+DOCUMENT                                                                       WINDOW
+
+It represents the document loaded                              	It represents the browser window 
+inside the window or browser.                                   in which you are seeing the content.
+
+The properties related to it are                              	The properties related to it are 
+stored in the document object.                                  stored in the window object.
+
+It is loaded after the loading                          	    It is loaded before the document
+window because the window contains a                            because window container document.  document.                                                                           
+  
+It is the root element of the                                   The window is the global element for 
+document object model.	                                         all objects,functions, etc.
+
+It is an object of window.	                                     It is an object of the browser.
+
+We can not access windows objects                              	 We can access document object 
+properties inside the document.                                  properties  inside the window.
+
+logically:                                                       logically:
+document:{ properties}                                           window:{
+                                                                 document:{properties}
+.                                                                  }
+
+
+Example: document.title will return                         	  Example: window.document.title 
+the title of the document                                         will return the title of the document.
+    
+       
